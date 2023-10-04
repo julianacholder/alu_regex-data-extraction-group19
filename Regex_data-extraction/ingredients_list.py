@@ -1,5 +1,8 @@
 import re
 
+"""
+Some examples of ingredients to be input into raw_data include:eggs,sugar,flour
+"""
 raw_data = input("Enter API data: ")
 
 # Pattern: "ingredient1, ingredient2, ingredient3"
