@@ -11,5 +11,5 @@ if matches:
   ingredients_str = matches.group("ingredients").strip()
 # Remove leading/trailing whitespaces
   print(ingredients_str.split(", "))
-  else:
-     print("No ingredients found in input")
+else:
+  print("No ingredients found in input")
